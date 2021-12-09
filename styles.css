@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,500&display=swap');
+
+@media (min-width: 320px) and (max-width: 3200px){
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+	height: 100%;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 2rem;
+    font-size: 19pt;
+    text-align: center;
+    background-color: rgb(254, 174, 118);
+	z-index: 5;
+	position: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:65px;
+}
+nav :hover{
+    color: rgba(247, 146, 30, 0.966);
+}
+nav a{
+    display: inline-block;
+    padding:5px;
+    font-size: 19px;
+    color: white;
+}
+.logo{
+  width: 100%;
+  height: 5rem;
+  z-index: 5;
+  padding-left: 47%;
+  background-color: rgb(254, 174, 118);
+  padding-top: 10px;
+  position: fixed;
+}
+
+
+main{
+    padding-left: 21%;
+    width: 100%;
+}
+.main_image{
+    width: 1100;
+    position: absolute;
+    left: 21%;
+    top: 15%;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 95, 0);
+}
+h1{
+    padding-bottom: 1%;
+}
+.process{
+    width: 550px;
+    height: 533px;
+    position: absolute;
+    top: 105%;
+    left: 45%;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5rem;
+}
+.process_2{
+    width: 550px;
+    height: 533px;
+    position: absolute;
+    top: 91%;
+    left: 54%;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5rem;
+}
+.process_3{
+    width: 550px;
+    height: 533px;
+    position: absolute;
+    top: 188%;
+    left: 45%;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5rem;
+}
+.process_4{
+    width: 1100px;
+    height: 533px;
+    position: absolute;
+    top: 156%;
+    left: 21%;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5rem;
+}
+.process_5{
+    width: 500px;
+    height: 533px;
+    position: absolute;
+    top: 105%;
+    left: 55%;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5rem;
+}
+.process p{
+    font-weight: 300;
+}
+.process_2 p{
+     font-weight: 300;
+}
+.process_3 p{
+    font-weight: 300;
+}
+.process_4 p{
+    font-weight: 300;
+}
+.process_5 p{
+    font-weight: 300;
+}
+.sketch{
+    width: 1100;
+    position: absolute;
+    left: 21%;
+    top: 160%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.view{
+    position: absolute;
+    left: 21%;
+    top: 85%;
+    font-family: 'Ubuntu', sans-serif;
+}
+aside{
+    position: fixed;
+    top: 175px;
+    left: 76.3%;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    color: rgb(255, 95, 0);
+    text-align: center;
+    padding-top: 11%;
+    padding-right: 88%;
+    
+}
+table{
+    margin-top: 1%;
+}
+td{
+    width: 550px;
+    height: 413px;
+    overflow: hidden;
+}
+.work_image:hover{
+    filter: brightness(80%);
+}
+td .text{
+    filter: none;
+    position:relative;
+    bottom:75px;
+    left:20px;
+    font-size: 35pt;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    visibility: hidden;
+    text-shadow: rgb(90, 90, 90);
+}
+td:hover .text{
+    
+    visibility: visible;
+}
+.second_row{
+    position:relative;
+    bottom:57px;
+}
+.third_row{
+    position:relative;
+    bottom:114px;
+}
+.web_design{
+    position:relative;
+    top:-70px;
+}
+footer{
+    display: flex;
+    height: 180px;
+    padding-left: 1200px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    background-color: rgb(254, 174, 118, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.info{
+    flex:0 0 20%;
+    margin: 20px;
+    
+}
+.info p{
+    font-size: 11pt;
+    line-height: 1.2rem
+}
+.copyrights{
+    position: absolute;
+    top: 2435px;
+    left: 700px;
+    font-size: 11pt;
+}
+.contact_info{
+    padding-left: 50px;
+    position: relative;
+    top:-30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.contact{
+    position: relative;
+    top: 50px;
+    left: 19.5%;
+    background-color: rgb(254, 174, 118, 0.4);
+    border-radius: 10px;
+    width: 470px;
+    height: 200px;
+    padding-top: 25px;
+    padding-left: 135px;
+    box-shadow: 9px 9px 5px #b9b9b9;
+}
+.mypic{
+    position: relative;
+    left: 500px;
+}
+#myname{
+    color: rgb(255, 95, 0);
+    animation: mymove 3s infinite;
+}
+@keyframes mymove{
+    from{color:rgb(255, 95, 0);}
+    to{color: rgb(255, 241, 45);}
+}
+#hello{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 20pt;
+    position: relative;
+    top:-430px;
+    left: 50px;
+}
+#aboutme{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    line-height: 1.7rem;
+    position: relative;
+    top:-405px;
+    left:51px;
+}
+.resume{
+    background-color: rgb(255, 95, 0);
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    position: relative;
+    left: 375px;
+    top: -230px;
+}
+.resume:hover{
+    background-color: rgb(247, 147, 30);
+}}
+
+
+.viedo_bg{
+	width:100%;
+	height:100vh;
+    position: relative;
+	overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viedo_bg video{
+	width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+}
+
+.start{
+    position: absolute;
+    margin-left: 14%;
+    margin-bottom: 8%;
+    padding-top: 30px;
+    padding-left: 60px;
+    width: 6.3%;
+    height: 4.3%;
+    font-size: 90pt;
+    color: rgb(255, 255, 255);
+    bottom: -8%;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: rgb(255, 95, 0);
+}
+.start:hover{
+    background-color: rgb(247, 147, 30);
+}

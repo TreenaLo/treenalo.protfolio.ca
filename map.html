@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Treena Lo | Portfolio</title>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<style>
+  footer{
+    display: flex;
+    height: 180px;
+    width: 1920px;
+    padding-left: 1150px;
+    padding-top: 10px;
+    position: absolute;
+    top: 235%;
+    flex-wrap: wrap;
+    background-color: rgb(254, 174, 118, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info{
+    flex:0 0 20%;
+    margin: 20px;
+    
+}
+.info p{
+    font-size: 11pt;
+    line-height: 1.2rem
+}
+.copyrights{
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    font-size: 11pt;
+}
+h3{
+  padding-bottom: 15px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  top: 5%;
+  margin: auto;
+  box-shadow: 11px 11px 7px #b9b9b9;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: rgba(247, 146, 30, 0.966);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+</style>
+
+<header>
+    <div class="logo" >
+     <a href="index.html"><img src="logo.svg" alt="LO logo" width="100" height="53"></a>
+    </div>
+    <nav>
+      <a href="work.html" style="text-decoration:none;">Works</a>
+      <a href="aboutus.html" style="text-decoration:none;">About</a>
+      <a href="contact.html" style="text-decoration:none;">Contact</a>
+      <a href="index.html" style="text-decoration:none;">Home</a>
+   </nav>
+</header>
+<body>
+  <main>
+  <section class="main_image">
+      <h1>Interactive Map</h1>
+   <img src="WorkCompleted/ExistingWork_Tzu-Yu_Lo_07/home.jpg" alt="home page" width="1000" height="505" style="box-shadow: 11px 11px 7px #b9b9b9;"><br>
+  
+  </section>
+  <section class="process_4">
+    <h3>Overview</h3><br>
+    <h4>Project Type:</h4><p>School Project (Group work)</p><br>
+   <h4>Goal:</h4><p>Build an interactive, non-linear map of a specific Calgary location. In order to complete this task, your group will need to come with a unique<br>target audience and creative concept for your area that will appeal to the target audience.</p><br>
+   <h4>Role:</h4><p>Web Developer</p><br>
+   <h4>Software used:</h4><p>HTML, CSS, PHP, MySQL</p><br>
+   <h4>Challenge:</h4><p>Team members all bring their unique set of skills, opinions, so it may have conflict between each other. Everybody may upload their works on<br>different time since everyone has different schedule, but it would generate inconvenience for some others members.</p><br>
+   <h4>Solution:</h4><p>Have good conversation skill and tool are important. We used Microsoft Teams and Google Drive to manage our work and schedule.<br>Additionally, we had weekly meeting to share and update our currently work.</p><br>
+   <h4>Group Members:</h4><p>Nicolas Lohmann-melosh99@gmail.com<br> 
+                             Thomas Allcock-tomhaugena@gmail.com<br>
+                             Kennedy Sherring</p>
+   <a href="http://dev.saitnewmedia.ca/~tlo/Production%20Company/">Link to Interactive Map</a>
+  </section>
+  <section class="view">
+    <h3>Web Pages</h3>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="WorkCompleted/ExistingWork_Tzu-Yu_Lo_07/map_page.jpg" width="1000" height="508">
+          <div class="text">Map Page</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="WorkCompleted/ExistingWork_Tzu-Yu_Lo_07/search_page.jpg" width="1000" height="508">
+          <div class="text">Search Page</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="WorkCompleted/ExistingWork_Tzu-Yu_Lo_07/detail_page.jpg" width="1000" height="508">
+          <div class="text">Detail Page</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+  </section>
+ 
+</main>
+
+  <footer>
+    <div class="info">
+    <h3>Services</h3><br>
+    <p>Graphic Design<br>Web Design<br>3D Modeling</p>
+   </div>
+  
+    <div class="info">
+    <h3>Contact</h3><br>
+    <p>lotree71@gmail.com</p>
+    </div>
+  
+    <p class="copyrights">Copyrights @ 2021 Tzu-Yu Lo. All rights reserved.</p>
+  </footer>
+
+  <aside>
+    <a href="work.html#web"><img src="web_design.svg" alt="Web Design" width="200" height="61"></a>
+  </aside>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+</body>
+
+</html>
